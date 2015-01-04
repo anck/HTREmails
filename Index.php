@@ -24,9 +24,11 @@ function addRow2(tableID)
 			case"text":
 				newcell.childNodes[0].value="";
 			break;
-			case"checkbox":newcell.childNodes[0].checked=false;
+			case"checkbox":
+				newcell.childNodes[0].checked=false;
 			break;
-			case"select-one":newcell.childNodes[0].selectedIndex=0;
+			case"select-one":
+				newcell.childNodes[0].selectedIndex=0;
 			break;
 		}
 	}
