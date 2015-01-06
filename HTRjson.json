@@ -1,20 +1,22 @@
-{ "ICAWS750WX86X64020": 
 {
-  "Priority" : 3, 
-  "Received" : "30-Oct-14", 
-  "Lead": "Anchitk", 
-  "PTR": 9, 
-  "HTR": 0, 
-  "Type": "Private VDA" }, 
-
-"ICAWS760WX86X64004": { 
-  "Priority" : 3, 
-  "Received" : "30-Nov-14", 
-  "Lead": "Anchitk", 
-  "PTR": 9, 
-  "HTR": 0, 
-  "Type": "Private VDA" 
-  
-} 
-  
-} 
+    "HTR": [
+        {
+            "Hotfix": "ICAWS750WX86X64020",
+            "Priority": 3,
+            "Received": "30-Oct-14",
+            "Lead": "Anchitk",
+            "PTR": 9,
+            "HTR": 0,
+            "Type": "PrivateVDA"
+        },
+        {
+            "Hotfix": "ICAWS760WX86X64004",
+            "Priority": 3,
+            "Received": "30-Nov-14",
+            "Lead": "Anchitk",
+            "PTR": 9,
+            "HTR": 0,
+            "Type": "PrivateVDA"
+        }
+    ]
+}
