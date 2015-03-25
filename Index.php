@@ -4,7 +4,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>SG 2 - #6</title>
 	<link rel="stylesheet" type="text/css" href="table.css">
-<title> Add 'em up Again!</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<title>HTR Emails:</title>
 </head>
 <body>
 <script>
@@ -55,6 +56,21 @@ function deleteRow(tableID)
 		catch(e)
 		{alert(e);}
 	}
+
+
+function createOutputTable()
+{
+	
+
+	
+}
+	
+function createJson()
+{
+	
+	
+}
+
 </script>
 
 <!-- Self submit to php -->

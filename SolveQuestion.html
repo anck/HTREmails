@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#box {
+    width: 100px;
+    padding: 100px;
+    border: 1px solid navy;
+    margin: 10px;
+    /* background-color: #cccccc; */
+}
+#smallBox
+{
+	position: relative;
+ 	top: -110px;
+    right: -180px;
+	width: 10px;
+    padding: 10px;
+    border: 1px solid navy;
+    background-color: green; 
+    /*margin: 1px; */
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+	  $("#box").click(function()
+		{
+		   	$(this).css("background-color","blue");
+		   	$("#smallBox").css("background-color","Red");
+		}
+	  
+	  
+	  );
+	  
+});
+</script>
+</head>
+<body>
+
+<div id ="box">
+<div id= "smallBox"></div>
+</div>
+
+
+</body>
+</html>
